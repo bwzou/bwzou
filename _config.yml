@@ -36,6 +36,8 @@ redirect-to: http://blog.webjeda.com/thank-you/
 # Site version
 version: 0.9
 
+# socket 
+port: 4001
 
 # Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
 
