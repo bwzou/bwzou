@@ -4,55 +4,31 @@ title: About
 permalink: /about/
 show-in-menu: yes
 ---
+# ABOUT ME
 
-The theme Ashwath is designed keeping smartphone and iPad users in mind. A clean, minimal, app like design is more comfortable to use on a mobile browser. It looks real nice on desktop as well.  
+- 我不是大神，我只是一枚有点帅的普通前端开发者！
+- 爱前端，爱设计，爱编程，爱分享，爱运动，爱生活！
+- 我的做事风格：**重要的事情先做**！
+- 我很认真，对待任何事情！
+- 我喜欢交朋友，同龄友，忘年交！
+- 我喜欢打羽毛球，并把它作为我的爱好！
+- 这个博客，是用来分享技术的，也是记载我人生路途的！
+- 除了这个博客外，我还运营着个人公众号‘阿文的小台灯’！
+- 我很帅，说了你也不信，我还单身！
 
-Full version will have the following options.
+## 你可以在以下平台找到我：
+```js
+github='https://github.com/bwzou'
+zhihu='https://www.zhihu.com/people/bwzou'
 
-1. Color Schemes
-2. Pagination
-3. Categories customization guide
-4. Author section
+```
 
-Check out [full version]({{site.full-url}}){: target="_blank"}
+## 其他信息:
+公司：FYTRI  <br>
+QQ:1057843869 <br>
+邮箱：bwzou1@gmail.com
 
-**Buy this theme**
+**查看我的博客地址？**
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="6ETS5UPR3XHEJ">
-<div class="tab">
-<table>
-<tr><td><input type="hidden" name="on0" value="Add ons">Add ons</td></tr><tr><td><select style="border: 1px solid;" name="os0">
-	<option value="Just the theme + 3 months support">Theme + 3mnths Support $12.00 USD</option>
-	<option value="Initial installation Guide">Theme + Installation $18.00 USD</option>
-	<option value="Extended 12 months support">Theme + 12mnths Support $25.00 USD</option>
-</select> </td></tr>
-</table>
-</div>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<style>
-
-form {
-    max-width: 100%;
-    border:1px solid #777;
-    padding: 20px 5px;
-    display: inline-block;
-    margin-bottom: 1em;
-    }
-    
-.tab {
-    overflow-x: scroll;
-}
-</style>
-
-
-
-**Does the theme deserve a star?**
-
-<a class="github-button" href="https://github.com/sharu725/ashwath" data-style="mega" data-count-href="/sharu725/ashwath/stargazers" data-count-api="/repos/sharu725/ashwath#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star sharu725/ashwath on GitHub">Star</a>
+<a class="github-button" href="https://github.com/bwzou/bwzou" data-style="mega" data-count-href="/bwzou/bwzou/stargazers" data-count-api="/repos/bwzou/bwzou#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star bwzou/bwzou on GitHub">Star</a>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
