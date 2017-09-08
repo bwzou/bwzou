@@ -6,8 +6,7 @@ show-in-menu: yes
 active: active
 ---
 
-
-I would like to hear from my readers.
+我很愿意听到读者的声音.
 
 <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token={{site.simpleform-token}}" method="POST" enctype="multipart/form-data">
         <ul class="contact-ul">
@@ -30,10 +29,8 @@ I would like to hear from my readers.
         
 </form>
 
-This form is setup using [SimpleForm](https://getsimpleform.com){: target="_blank" rel="nofollow"}. You can get your own API token and update the ``simpleform-token`` variable in **_config.yml**. 
-
-
-The styles for the form is included in this page. I haven't included it in the main age because it has at least 25 lines of css and it is used only on this page. So including it in main css file doesn't make sense.
+表单的建立使用了 [SimpleForm](https://getsimpleform.com){: target="_blank" rel="nofollow"}. 你可以获取自己的API token 并更新**_config.yml**的``simpleform-token``变量。 
+本页面包含的样式，没有把这些样式写入main.css文件的原因是这些样式只包含在本页面，所以就没有必要写入main.css文件。
 
 <style>
 form {
@@ -79,7 +76,6 @@ ul.contact-ul {
     opacity: 1;
     cursor: pointer;
 }
-
 
 #contact-form {
     border: 1px solid #aaa;

@@ -16,14 +16,14 @@ show-in-menu: yes
 - 除了这个博客外，我还运营着个人公众号‘阿文的小台灯’！
 - 我很帅，说了你也不信，我还单身！
 
-## 你可以在以下平台找到我：
+## FIND ME
 ```js
 github='https://github.com/bwzou'
 zhihu='https://www.zhihu.com/people/bwzou'
 
 ```
 
-## 其他信息:
+## OTHER INFORMATION
 公司：FYTRI  <br>
 QQ:1057843869 <br>
 邮箱：bwzou1@gmail.com
