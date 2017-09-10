@@ -10,9 +10,9 @@ title: bwzou
 description: > # this means to ignore newlines until "baseurl:"
  这是本人的博客，记录自己的点点滴滴！
 baseurl: "/bwzou" # the subpath of your site, e.g. /blog
-url: "http://webjeda.com"
+url: "https://bwzou.github.io/bwzou/"
 permalink: :title/
-full-url: "http://ashwathama.s3-website-us-east-1.amazonaws.com/" # the base hostname & protocol for your site
+full-url: "https://bwzou.github.io/bwzou/" # the base hostname & protocol for your site
 
 
 # CSS
@@ -31,7 +31,7 @@ analytics: UA-83979019-1
 simpleform-token: b6d4be9b039b666b3311e1ddcbfb577c
 
 # Redirect users after submitting the form
-redirect-to: http://blog.webjeda.com/thank-you/
+redirect-to: https://bwzou.github.io/bwzou/thank-you/
 
 # Site version
 version: 0.9
@@ -53,8 +53,8 @@ author:
   name: bwzou
   image: bwzou.jpg # The author image will be shown on the header. Place this image in /images/ folder.
   about: bwzou是一个帅帅的前端工程师！！
-  twitter: webjeda  # https://twitter.com/ is automatically added
-  facebook: webjeda # https://facebook.com/ is automatically added
+  twitter: bwzou  # https://twitter.com/ is automatically added
+  facebook: bwzou # https://facebook.com/ is automatically added
   email: bwzou1@gmail.com # mailto: is automatically added
   
 gems: 

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 show-in-menu: yes
 ---
-# ABOUT ME
+## ABOUT ME
 
 - 我不是大神，我只是一枚有点帅的普通前端开发者！
 - 爱前端，爱设计，爱编程，爱分享，爱运动，爱生活！
@@ -20,12 +20,11 @@ show-in-menu: yes
 ```js
 github='https://github.com/bwzou'
 zhihu='https://www.zhihu.com/people/bwzou'
-
 ```
 
 ## OTHER INFORMATION
 公司：FYTRI  <br>
-QQ:1057843869 <br>
+QQ：1057843869 <br>
 邮箱：bwzou1@gmail.com
 
 **查看我的博客地址？**
