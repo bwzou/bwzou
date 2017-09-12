@@ -1,4 +1,4 @@
-Bheema is a theme suitabel for image heavy journal kind of websites. 
+jekyll,simple is beautiful!
 
 ## Installation
 * Fork the repository
