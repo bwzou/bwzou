@@ -13,6 +13,7 @@ $spacing-unit:     30px;
 $text-color:       #555;
 $background-color: #fdfdfd;
 $brand-color:      #514A9D;
+$yellow-color:     #2b2b2b;
 $brand-color-2:    #24C6DC;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -47,7 +48,6 @@ $on-laptop:        800px;
         "header",
         "sidebar",
         "cards",
-        "post",
-        "layout"
+        "post"
 
 ;

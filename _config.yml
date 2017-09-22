@@ -46,6 +46,10 @@ change-date-bg: no
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
 
 include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
