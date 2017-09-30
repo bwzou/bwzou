@@ -2,7 +2,7 @@
 layout: post
 title: "调试移动端页面方法"
 description: 做前端开发时，特别是做移动端开发，要想快速找到问题，就必须掌握一些开发调试的方法！
-date:   2017-09-14 7:50:00 +0530
+date:   2017-09-14 7:50:00 +0800
 categories: design
 author: bwzou
 ---

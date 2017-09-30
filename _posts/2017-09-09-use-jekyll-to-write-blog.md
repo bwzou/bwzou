@@ -2,7 +2,7 @@
 layout: post
 title: "如何搭建个人博客"
 description: 根据本人搭建博客的经历，整理一篇如何搭建个人博客的文章，内容涉及选取框架、搭建过程、发布等！
-date:   2017-09-09 10:50:00 +0530
+date:   2017-09-09 10:50:00 +0800
 categories: design
 author: bwzou
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "需要知道的http知识"
 description: 工作中http真的是太常见，需要对此有一个充分的学习！
-date:   2017-09-12 10:50:00 +0530
+date:   2017-09-12 10:50:00 +0800
 categories: code
 author: bwzou
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "angular项目分享"
 description: 基于angular1.x的一个项目的分享，主要涉及整个项目结构、模块、功能等！
-date:   2017-09-13 9:50:00 +0530
+date:   2017-09-13 9:50:00 +0800
 categories: code
 author: bwzou
 ---
@@ -12,7 +12,7 @@ author: bwzou
 
 ### 项目结构
 首先展示整个项目结构：
-```js
+```
 ├─assets        # 资源目录，存放静态资源
 │  └─img
 │      ├─bg
