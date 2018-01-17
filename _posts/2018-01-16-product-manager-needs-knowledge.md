@@ -21,15 +21,15 @@ author: bwzou
 
 ### 前端技术：HTML/CSS/JavaScript
 **HTML**:超文本标记语言，主要用于表现层，产品经理最好懂HTML，不单单是HTML5，HTML5是新技术，懂的话更好，HTML是最基本的网页脚本语言，html用于人与浏览器之间的交流，html的特性可以跨平台展示，在pc端可以看，在手机端也可以看，在手机端看要注意自适应。学习html有一个很好办法：右键属性->查看网页源代码，就可以看页面的逻辑。学习的路线：
-1. [入门级]({{http://www.w3school.com.cn/html/index.asp}})。这里主要是学习HTML和HTML5，不用记，浪费时间。简单会照着样例改改就行。
-2. [权威的文档]({{https://developer.mozilla.org/zh-CN/docs/Web}})
+1. [入门级]({{http://www.w3school.com.cn/html/index.asp}})http://www.w3school.com.cn/html/index.asp。这里主要是学习HTML和HTML5，不用记，浪费时间。简单会照着样例改改就行。
+2. [权威的文档]({{https://developer.mozilla.org/zh-CN/docs/Web}})https://developer.mozilla.org/zh-CN/docs/Web
 
 **CSS**：中文名称：层叠样式表，是用来表现HTML或XML等文件样式的计算机语言。CSS 能够对网页中元素位置的排版进行像素级精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力。CSS为HTML标记语言提供了一种样式描述，定义了其中元素的显示方式。学习的路线：
-1. [入门级]({{http://www.w3school.com.cn/css/index.asp}})。这里学习CSS和CSS3，也是要知道有什么用，都不用记，不搞开发都不用记。
+1. [入门级]({{http://www.w3school.com.cn/css/index.asp}})http://www.w3school.com.cn/css/index.asp。这里学习CSS和CSS3，也是要知道有什么用，都不用记，不搞开发都不用记。
 2. 推荐书籍《CSS设计指南（第3版）》，个人看来感觉还不错，前面5章可以打基础，后面如果不打算编程就可以略看。
 
 **Javascript**：JavaScript是一种属于网络的脚本语言,已经被广泛用于Web应用开发,常用来为网页添加各式各样的动态功能,为用户提供更流畅美观的浏览效果。通常JavaScript脚本是通过嵌入在HTML中来实现自身的功能的，比如大家看到网站上的滚动效果，就是用js实现的。学习的路线：
-1. [入门级]({{http://www.w3school.com.cn/js/index.asp}})
+1. [入门级]({{http://www.w3school.com.cn/js/index.asp}})http://www.w3school.com.cn/js/index.asp
 2. 深入学习《JavaScript高级程序设计（第3版）》泽卡斯大神的书很棒，不过理解可能有点难，我就正在看。
 3. JS是目前最火的，可以用于前后端。有很多框架和新技术，日后再跟你说，只需要了解哪些技术可以做什么。
 
