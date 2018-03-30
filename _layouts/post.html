@@ -19,13 +19,13 @@ layout: default
 {% endif %}
 
 
-{% assign words = content | strip_html | number_of_words %}
+{% assign words = content | strip_html | strip_newlines | size %}
  &nbsp;&nbsp; 
    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 
-{% if words < 360 %}
+{% if words < 350 %}
  1 min
 {% else %}
-  {{ words | divided_by:180 }} mins 
+  {{ words | divided_by:250 }} mins
 {% endif %}
 </span>
 </p>

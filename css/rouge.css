@@ -9,7 +9,7 @@
   font-style: italic;
 }
 .highlight .c1 {
-  color: #75715e;
+  color: #93a1a1;
   font-style: italic;
 }
 .highlight .cp {
@@ -23,7 +23,7 @@
 }
 .highlight .err {
   color: #960050;
-  background-color: #1e0010;
+  background-color: #272822;
 }
 .highlight .gi {
   color: #ffffff;

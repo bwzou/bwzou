@@ -4,7 +4,7 @@
     -webkit-transition-timing-function: linear; /* Safari */
     transition: all 0.2s;
     transition-timing-function: linear;
-      }
+}
 
 /**
  * Reset some basic elements
@@ -133,9 +133,9 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: -1px;
-    font-style: italic;
+    font-style: inherit;
     font-family: monospace;
     > :last-child {
         margin-bottom: 0;
@@ -150,7 +150,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 0.3em solid #e0dfcc;
+    //border: 0.3em solid #e0dfcc;
     border-radius: 3px;
 }
 
@@ -168,7 +168,6 @@ pre {
         padding-left: 0;
     }
 }
-
 
 
 /**
