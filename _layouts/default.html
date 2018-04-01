@@ -6,7 +6,7 @@ layout: compress
 <html>
 {% include head.html %}
 
-<body>
+<body onload="PR.prettyPrint()">
    <div class="container">
        
     {% include sidebar.html %}
@@ -41,7 +41,7 @@ layout: compress
     document.getElementById("mySidenav").style.width = "0";
     }
 </script>
-        
+<script type="text/javascript" src="{{site.baseurl}}/js/prettify.js"></script>
         
 </div>            
         
