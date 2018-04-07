@@ -14,6 +14,7 @@ python的缺点是：1、运行速度慢（相对于C,Java等）；2、代码不
 根据[TIOBE](https://hellogithub.com/tiobe/?url=/category/Python%20%E9%A1%B9%E7%9B%AE/)（编程语言排行榜），python处于第四的位置
 ![]({{site.baseurl}}/images/20180331_TIOBE.png){: .shadow}
 
+
 ## Python安装
 要开始学习python编程，首先就要在你的电脑里安装python。成功安装后，你会得到python解析器（负责运行python程序的），一个命令行交互环境，还有一个简单的集成开发环境。
 
@@ -40,6 +41,8 @@ python的缺点是：1、运行速度慢（相对于C,Java等）；2、代码不
 ![]({{site.baseurl}}/images/20180331_py_install_setup4.png){: .shadow}
 安装完成后，打开cmd，输入python出现上图表明安装成功！开始愉快的python之旅吧！
 ![]({{site.baseurl}}/images/20180331_py_install_setup5.png){: .shadow}
+
+
 ## 第一个Python程序
 在开始编写第一个python程序前，我们先了解什么是命令行模式和python交互模式。
 
@@ -48,7 +51,8 @@ python的缺点是：1、运行速度慢（相对于C,Java等）；2、代码不
 
 #### Python交互模式
 在命令行模式下输入python，就看到类似如下文的一堆文本输出，然后就进入python交互模式，他的提示符是`>>>`。<br>
-在python交互模式下输入exit()并回车，就推出来python交互模式，并回到命令行模式。
+在python交互模式下输入exit()并回车，就退出来python交互模式，并回到命令行模式。
+
 
 ## Pycharm安装
 经过以上安装步骤，你完全可以进行python编程。在Python的交互模式写程序，好处是一下子就能得到结果，坏处是没法保存，下次还想运行的时候，还得再敲一遍。所以，在实际开发的时候，我们需要一个文本编辑器来写代码，写完了保存为一个文件，这样程序就可以反复运行了。
@@ -67,8 +71,8 @@ python的缺点是：1、运行速度慢（相对于C,Java等）；2、代码不
 ![]({{site.baseurl}}/images/20180331_pycharm_setup5.png){: .shadow}
 
 #### professional版
-前面四步完全一样，但是启动软件之前会提示需要激活。这一步需要购买pycharm（先别购买），选择试用。
-![]({{site.baseurl}}/images/20180331_pycharm_setup7.png){: .shadow}
+前面四步完全一样，但是启动软件之前会提示需要激活。这一步需要购买pycharm（先别购买），选择试用。<br>
+![]({{site.baseurl}}/images/20180331_pycharm_setup7.png){: .shadow}<br>
 而软件激活之后的界面是这样的：
 ![]({{site.baseurl}}/images/20180331_pycharm_setup6.png){: .shadow}
 
