@@ -173,6 +173,13 @@ d['Tom'] = 88
 4. 通过get()可以获取value，key不存在返回None或指定的值。
 5. 字典中的key是不可变对象，这是因为dict根据key来计算value的存储位置的，而key一旦生成，其存储位置就不在改变。
 
+可以使用{}或者dist()定义集合：
+```python
+tel = {'jack': 4098, 'sape': 4139}
+tel = dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
+tel = dict(sape=4139, guido=4127, jack=4098)
+```
+
 ## 集合 set
 set是一组key的集合，但是不存储value。set可以看做数学意义上的集合，其特点是无序的，不重复的。
 
@@ -180,6 +187,12 @@ set是一组key的集合，但是不存储value。set可以看做数学意义上
 2. 通过remove()方法可以删除元素。
 3. 两个或多个set可以做数学上的交集、并集等。
 
+可以使用{}或者set()定义集合：
+```python
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+basket = set(['apple', 'orange', 'apple', 'pear', 'orange', 'banana']);
+```
+试想一下。`print(set('abcedfej''))`会输出什么？为什么？
 
 <style>.shadow{
     box-shadow: 2px 2px 5px #aaa;

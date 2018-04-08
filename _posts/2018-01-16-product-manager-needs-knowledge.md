@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "产品需要的专业知识"
-description: 本文是给一个超级可爱超级喜欢的妹子写的!
+description: 本文是给一个超级可爱超级善良的妹子写的!
 date:   2018-01-16 23:59:00 +0800
 categories: design
 author: bwzou
