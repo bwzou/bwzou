@@ -3,7 +3,7 @@ layout: post
 title: "python开发环境搭建"
 description: python学习第一步，搭建适合自己的开发环境！
 date:   2018-03-31 12:00:00 +0800
-categories: code
+categories: python
 author: bwzou
 ---
 ## Python起源

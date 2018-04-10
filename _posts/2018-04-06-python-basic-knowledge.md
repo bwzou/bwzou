@@ -3,7 +3,7 @@ layout: post
 title: "python基础知识（一）"
 description: 本章涉及基础语法、数据类型与变量
 date:   2018-04-06 15:00:00 +0800
-categories: code
+categories: python
 author: bwzou
 ---
 ## 基础语法

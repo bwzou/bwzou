@@ -3,7 +3,7 @@ layout: post
 title: "python基础知识（二）"
 description: 本章涉及运算符、列表、元组、字典和集合
 date:   2018-04-06 19:26:00 +0800
-categories: code
+categories: python
 author: bwzou
 ---
 ## 运算符

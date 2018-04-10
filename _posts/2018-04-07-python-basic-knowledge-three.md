@@ -3,7 +3,7 @@ layout: post
 title: "python基础知识（三）"
 description: 本章涉及条件判断、循环
 date:   2018-04-07 01:10:00 +0800
-categories: code
+categories: python
 author: bwzou
 ---
 ## 条件判断 
