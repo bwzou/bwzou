@@ -195,6 +195,29 @@ basket = set(['apple', 'orange', 'apple', 'pear', 'orange', 'banana']);
 ```
 试想一下。`print(set('abcedfej''))`会输出什么？为什么？
 
+集合对象支持交、并、差集和对称差集，跟数学意义上的理解是一样的。
+```python
+s1 = set('abcd')
+s2 = set('abfg')
+
+print(s1 & s2)
+print(s1.intersection(s2))  # &和intersection等价
+
+print(s1 | s2)
+print(s1.union(s2))  # |和union等价
+
+print(s1 - s2)
+print(s1.difference(s2))  # -和difference等价
+
+print(s1 ^ s2)
+print(s1.symmetric_difference(s2))  # ^和symmetric_difference
+
+s3 = set('ab')
+print(s3.issubset(s1))   # s3是s1的子集
+
+print(s1.issuperset(s3))   # s1是s3的子集
+```
+
 <style>.shadow{
     box-shadow: 2px 2px 5px #aaa;
     border-radius: 0;

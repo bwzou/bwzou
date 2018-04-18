@@ -2,8 +2,8 @@
 layout: post
 title: "高级特性"
 description: python中有一些非常有用的高级特性，可以极大的提高开发效率。
-date:   2018-04-20 00:00:00 +0800
-categories: code
+date:   2018-04-12 00:00:00 +0800
+categories: python
 author: bwzou
 ---
 在开发程序上，我们不仅要考虑把功能实现了，还要考虑如何高效简洁！python提供了很多高级特性可以提高开发效率。
@@ -168,3 +168,7 @@ PS：生成器都是Iterator对象，但list、dict、str虽然是Iterable，却
 isinstance(iter('abc'), Iterator)
 ```
 想想为什么list、dict、str等数据类型不是Iterator？
+
+这是因为Python的Iterator对象表示的是一个数据流，Iterator对象可以被next()函数调用并不断返回下一个数据，直到没有数据时抛出StopIteration错误。可以把这个数据流看做是一个有序序列，但我们却不能提前知道序列的长度，只能不断通过next()函数实现按需计算下一个数据，所以Iterator的计算是惰性的，只有在需要返回下一个数据时它才会计算。
+
+Iterator甚至可以表示一个无限大的数据流，例如全体自然数。而使用list是永远不可能存储全体自然数的。
