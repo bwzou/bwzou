@@ -2,7 +2,7 @@
 layout: post
 title: "Anaconda安装和Pycharm配置"
 description: Anaconda是一个把管理器，里面安装了很多用于科学计算的包
-date: 2018-04-26 00:00:00 +0800
+date: 2018-04-18 00:00:00 +0800
 categories: python
 author: bwzou
 ---
