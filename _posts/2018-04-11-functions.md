@@ -9,7 +9,7 @@ author: bwzou
 在数学上，抽象是最常见的概念。而函数确是代码抽象的一种最基本方式。
 ## 函数定义
 你可以定义一个有自己想要功能的函数，定义的简单规则：1、函数代码以def关键字开头，后接函数标识符名称和圆括号()。2、任何传入参数和自变量必须放在圆括号中间。3、函数第一行语句可以使用注释，写出函数的说明。4、函数内容以冒号起始，并且缩进。5、可以使用return返回
-```python
+```
 def 函数名（参数列表）:   # 函数定义的一般格式
     函数体
 ```
@@ -27,7 +27,7 @@ print(area(2))
 调用python函数，需要根据函数定义，传入正确的参数。如果函数调用出错，肯定会报出错的信息，一定要学会看错误信息！！！
 
 python内置了很多有用的函数，我们也可以直接调用，具体可以看[官网](https://docs.python.org/3/library/functions.html)。我们也可以在python交互模式下通过help函数查看函数的帮助信息。
-```python
+```
 help(max)
 Help on built-in function max in module builtins:
 
@@ -68,20 +68,46 @@ power(2,2)     # 输出4
 #### 可变参数
 在Python函数中，还可以定义可变参数。顾名思义，可变参数就是传入的参数个数是可变的。
 
-我们以数学题为例子，给定一组数字a，b，c……，请计算a2 + b2 + c2 + ……。该怎么做呢？
-
-
+我们以数学题为例子，给定一组数字a，b，c……，请计算a^2 + b^2 + c^2 + ……。该怎么做呢？
+```python
+def calc(numbers):
+    sum = 0
+    for n in numbers:
+        sum = sum + n * n
+    return sum
+```
 定义可变参数和定义一个list或tuple参数相比，仅仅在参数前面加了一个*号。在函数内部，参数numbers接收到的是一个tuple，因此，函数代码完全不变。但是，调用该函数时，可以传入任意个参数，包括0个参数：
-
+```python
+def calc(*numbers):
+    sum = 0
+    for n in numbers:
+        sum = sum + n * n
+    return sum
+```
 如果已经有一个list或者tuple，要调用一个可变参数怎么办？这种写法当然是可行的，问题是太繁琐，所以Python允许你在list或tuple前面加一个*号，把list或tuple的元素变成可变参数传进去
-
 
 #### 关键字参数
 而关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict。举个栗子：
 ```python
 def person(name, age, **kw):
     print('name:', name, 'age:', age, 'other:', kw)
+
+person('Bob', 35, city='Beijing')
+
+extra = {'city': 'Beijing', 'job': 'Engineer'}
+person('Jack', 24, **extra)
 ```
+#### 命名关键字参数
+如果要限制关键字参数的名字，就可以用命名关键字参数，例如，只接收city和job作为关键字参数。这种方式定义的函数如下：
+```python
+def person(name, age, *, city, job):
+    print(name, age, city, job)
+
+person('Jack', 24, city='Beijing', job='Engineer')
+```
+和关键字参数`**`kw不同，命名关键字参数需要一个特殊分隔符*，*后面的参数被视为命名关键字参数。
+
+以上参数的定义循序：必选参数、默认参数、可变参数、命名关键字参数和关键字参数。
 
 ## 匿名函数
 python 使用 lambda 来创建匿名函数。所谓匿名，意即不再使用 def 语句这样标准的形式定义一个函数。

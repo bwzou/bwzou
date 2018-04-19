@@ -215,7 +215,7 @@ print(s1.symmetric_difference(s2))  # ^和symmetric_difference
 s3 = set('ab')
 print(s3.issubset(s1))   # s3是s1的子集
 
-print(s1.issuperset(s3))   # s1是s3的子集
+print(s1.issuperset(s3))   # s1是s3的超集
 ```
 
 <style>.shadow{
