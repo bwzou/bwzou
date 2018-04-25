@@ -124,11 +124,11 @@ print(G)
 
 我们可以通过next()函数获得generator的下一个返回值
 ```python
-print(G)
-print(G)
-print(G)
-print(G)
-print(G)
+print(next(G))
+print(next(G))
+print(next(G))
+print(next(G))
+print(next(G))
 ```
 
 generator保存的是算法，每次调用next(g)，就计算出g的下一个元素的值，直到计算到最后一个元素，没有更多的元素时，抛出StopIteration的错误。

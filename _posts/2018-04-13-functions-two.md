@@ -167,6 +167,75 @@ s = sorted(['Yisa','tom','Joe'], keys = str.lower, reverse=True)
 print(s)
 ```
 
+## 返回函数
+函数可以作为值返回。高阶函数除了可以接受函数作为参数外，还可以把函数作为结果值返回。
+
+我们来实现一个可变参数的求和。通常情况下，求和的函数是这样定义的：
+```python
+def calc_sum(*args):
+    ax = 0
+    for n in args:
+        ax = ax + n
+    return ax
+```
+但是如果我不需要立刻就求和然后返回值，而是等我需要的时候在计算，怎么办呢？我们可以返回一个函数：
+```python
+def wait_sum(*args):
+    def sum():
+        ax = 0
+        for n in args:
+            ax = ax + n
+        return ax
+    return sum
+```
+当我们调用wait_sum()时，返回的并不是求和结果，而是求和函数：
+```python
+f = wait_sum(8,2,3,5)
+print(f)
+```
+调用函数f时，才真正计算求和的结果：
+```python
+print(f())
+```
+我们在函数wait_sum中又定义了函数sum，并且内部函数sum可以引用外部函数wait_sum的参数和局部变量，当调用wait_sum()返回函数sum时，相关参数和变量都保存在返回的函数中，这种称为“闭包（Closure）
+
+请再注意一点，当我们调用lazy_sum()时，每次调用都会返回一个新的函数，即使传入相同的参数：
+```python
+f1 = wait_sum(1, 3, 5, 7, 9)
+f2 = wait_sum(1, 3, 5, 7, 9)
+print(f1==f2)
+```
+#### 闭包
+定义：如果内部函数引用外部函数的参数和局部变量，并且内部函数被返回的这种结构就称为闭包。
+
+注意到返回的函数在其定义内部引用了局部变量，所以，当一个函数返回了一个函数后，其内部的局部变量还被新函数引用，所以闭包用起来简单，实现起来可不容易。
+
+另一个需要注意的问题是，返回的函数并没有立刻执行，而是直到调用了f()才执行。我们来看一个例子：
+
+```python
+def count():
+    fs = []
+    for i in range(1, 4):
+        def f():
+             return i*i
+        fs.append(f)
+    return fs
+
+f1, f2, f3 = count()
+```
+如果调用f1()，f2()和f3()结果应该是1，4，9，但实际结果是：
+```python
+print(f1())
+print(f2())
+print(f3())
+```
+居然都是9！原因就在于返回的函数引用了变量i，但它并非立刻执行。等到3个函数都返回时，它们所引用的变量i已经变成了3，因此最终结果为9。
+
+如果想避免这种情况：返回闭包时牢记一点：返回函数不要引用任何循环变量，或者后续会发生变化的变量!!!
+
+
+
+
 <style>.shadow{
     box-shadow: 2px 2px 5px #aaa;
     border-radius: 0;
