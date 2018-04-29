@@ -125,3 +125,9 @@ json.loads(json_str)
 ```python
 x = json.load(f)
 ```
+## 操作文件和目录
+
+## 读取csv文件
+
+
+

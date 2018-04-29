@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831f2e5c-466e-4155-bff1-87a8d32ae7fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-18-error-and-debug.md" afterPath="$PROJECT_DIR$/_posts/2018-04-18-error-and-debug.md" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md" afterPath="$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-04-20-numpy.md" afterPath="$PROJECT_DIR$/_posts/2018-04-20-numpy.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="2018-04-18-input-output-programming.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="445">
-                <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,7 +26,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main.scss</find>
       <find>main.scs</find>
       <find>main.sc</find>
       <find>main.s</find>
@@ -71,6 +55,7 @@
       <find>f92672</find>
       <find>#E14F2A</find>
       <find>#ae81ff</find>
+      <find>线性代数</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -132,7 +117,6 @@
         <option value="$PROJECT_DIR$/_site/css/rouge.css" />
         <option value="$PROJECT_DIR$/_posts/2018-04-16-module-and-package.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-19-anaconda-install-and-setting.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-04-20-numpy.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-17-object-oriented-two.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-17-object-oriented.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-20-pandas.md" />
@@ -141,6 +125,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-04-13-functions-two.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-18-error-and-debug.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-04-20-numpy.md" />
       </list>
     </option>
   </component>
@@ -151,8 +136,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3325" />
-    <option name="y" value="214" />
+    <option name="x" value="3404" />
+    <option name="y" value="85" />
     <option name="width" value="1938" />
     <option name="height" value="1030" />
   </component>
@@ -667,12 +652,12 @@
       <workItem from="1524826235542" duration="2750000" />
       <workItem from="1524844131469" duration="58000" />
       <workItem from="1524926970796" duration="4934000" />
-      <workItem from="1524967101217" duration="6205000" />
+      <workItem from="1524967101217" duration="20208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237048000" />
+    <option name="totallyTimeSpent" value="251051000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -685,7 +670,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2869" y="-11" width="2902" height="1582" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16234756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -699,7 +683,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17475036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19935806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12255965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1100,16 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-20-numpy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-330">
-            <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-20-pandas.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1151,11 +1125,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-20-numpy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="346">
+            <caret line="285" column="57" lean-forward="false" selection-start-line="285" selection-start-column="57" selection-end-line="285" selection-end-column="57" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="445">
-            <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+          <first_editor relative-caret-position="1163">
+            <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
