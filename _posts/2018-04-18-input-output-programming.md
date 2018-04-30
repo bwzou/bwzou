@@ -128,6 +128,11 @@ x = json.load(f)
 ## 操作文件和目录
 
 ## 读取csv文件
-
-
+Python 中还有一个 csv 的标准库，可以方便我们使用csv文件。
+```python
+import csv
+csv_reader = csv.reader(open("day10.csv"))
+for row in csv_reader:
+    print row
+```
 
