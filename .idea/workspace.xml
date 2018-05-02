@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831f2e5c-466e-4155-bff1-87a8d32ae7fd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/20180421_new_table_format.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md" afterPath="$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-20-numpy.md" afterPath="$PROJECT_DIR$/_posts/2018-04-20-numpy.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-21-pandas-two.md" afterPath="$PROJECT_DIR$/_posts/2018-04-21-pandas-two.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-03-matplotlib.md" afterPath="$PROJECT_DIR$/_posts/2018-05-03-matplotlib.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-04-seaborn.md" afterPath="$PROJECT_DIR$/_posts/2018-05-04-seaborn.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="2018-04-21-pandas-two.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-pandas-two.md">
+      <file leaf-file-name="2018-05-03-matplotlib.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-03-matplotlib.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-488">
-                <caret line="288" column="28" lean-forward="false" selection-start-line="288" selection-start-column="28" selection-end-line="288" selection-end-column="28" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -31,12 +29,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-04-18-input-output-programming.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md">
+      <file leaf-file-name="2018-05-04-seaborn.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-04-seaborn.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="891">
-                <caret line="132" column="10" lean-forward="false" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="841">
+                <caret line="127" column="3" lean-forward="true" selection-start-line="127" selection-start-column="3" selection-end-line="127" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -156,6 +154,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-04-20-numpy.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-21-pandas-two.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-03-matplotlib.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-04-seaborn.md" />
       </list>
     </option>
   </component>
@@ -166,8 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3540" />
-    <option name="y" value="164" />
+    <option name="x" value="3094" />
+    <option name="y" value="92" />
     <option name="width" value="1938" />
     <option name="height" value="1030" />
   </component>
@@ -682,12 +682,12 @@
       <workItem from="1524826235542" duration="2750000" />
       <workItem from="1524844131469" duration="58000" />
       <workItem from="1524926970796" duration="4934000" />
-      <workItem from="1524967101217" duration="52631000" />
+      <workItem from="1524967101217" duration="69385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283474000" />
+    <option name="totallyTimeSpent" value="300228000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -700,6 +700,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2869" y="-11" width="2902" height="1582" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16234756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -713,7 +714,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19793153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14728959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12255965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1024,31 +1025,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-04-seaborn.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-06-python-basic-knowledge-two.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="5197">
             <caret line="217" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-03-matplotlib.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -1104,16 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-20-pandas.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2174">
-            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-13-functions-two.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1157,10 +1128,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="891">
+            <caret line="132" column="10" lean-forward="false" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-pandas-two.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-488">
+          <first_editor relative-caret-position="2310">
             <caret line="288" column="28" lean-forward="false" selection-start-line="288" selection-start-column="28" selection-end-line="288" selection-end-column="28" />
             <folding />
           </first_editor>
@@ -1168,11 +1150,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-18-input-output-programming.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-20-pandas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-03-matplotlib.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="891">
-            <caret line="132" column="10" lean-forward="false" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-04-seaborn.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="841">
+            <caret line="127" column="3" lean-forward="true" selection-start-line="127" selection-start-column="3" selection-end-line="127" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
