@@ -2,7 +2,7 @@
 layout: post
 title: "Matplotlib"
 description: Matplotlib是python科学计算中经常用到的绘图工具包。
-date: 2018-04-30 08:00:00 +0800
+date: 2018-05-03 08:00:00 +0800
 categories: python
 author: bwzou
 ---
