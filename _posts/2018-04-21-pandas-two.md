@@ -93,7 +93,7 @@ f.to_csv('../data/day13/out1.csv', index=False, header=False)
 此外，你还可以只写出一部分的列，并以你指定的顺序排列：
 ```python
 f = pd.read_csv('../data/day13/example1.csv', header=None)
-f.to_csv('../data/day13/out1.csv', index=False, cols=['a', 'b', 'c'])
+f.to_csv('../data/day13/out1.csv', index=False, columns=[0, 2])
 ```
 Series也有一个to_csv方法：
 ```python

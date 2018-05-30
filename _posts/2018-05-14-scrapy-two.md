@@ -2,7 +2,7 @@
 layout: post
 title: "Scrapy(二)"
 description: Scrapy自带了提取数据的机制。它们称为选择器，因为它们“选择”由XPath或CSS表达式指定的HTML文档的某些部分。
-date: 2018-05-10 08:00:00 +0800
+date: 2018-05-14 08:00:00 +0800
 categories: python
 author: bwzou
 ---
@@ -86,3 +86,8 @@ a:nth-child(2)   | 选取下面第二个标签，如果是a的话则选取，不
 a:nth-child(2n)  | 选取第偶数个a元素
 a:nth-child(2n+1)| 选取第奇数个a元素
 
+## 实践
+刚刚都是一些表格式说明，简单粗暴，但是看了也一头雾水。Scrapy选择器主要就是要会用，好了我们以https://www.lagou.com/zhaopin/Java/为例进行讲解吧。
+```
+scrapy shell "https://www.lagou.com/zhaopin/Java/"
+```
