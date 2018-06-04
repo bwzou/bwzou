@@ -95,6 +95,13 @@ db.close()
 ```
 Database version : 5.7.20-log 
 ```
+如果连接过程中出现：ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)，而在命令行中输入mysql -u root -p 回车输入密码却可以连接数据库。
+
+最简单的方法是更换root密码的认证方式：新版mysql使用的caching_sha2_password，换成mysql_native_password我就可以连上了。
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'rootroot';
+```
+
 我们来看一个完整的例子：
 ```python
 import pymysql
