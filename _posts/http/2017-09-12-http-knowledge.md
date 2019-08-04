@@ -3,7 +3,7 @@ layout: post
 title: "需要知道的http知识"
 description: 工作中http真的是太常见，需要对此有一个充分的学习！
 date:   2017-09-12 10:50:00 +0800
-categories: code
+categories: http
 author: bwzou
 ---
 随着Web应用程序功能越来越丰富，开发者对web的要求开始变得多了起来。这就需要深入了解支撑Web基础的HTTP协议。对HTTP协议有了更深入的理解后，对开发也会有一些启发。
