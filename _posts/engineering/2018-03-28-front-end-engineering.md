@@ -3,7 +3,7 @@ layout: post
 title: "前端工程化"
 description: 前端拥有着及其庞大的生态，在此先做一个记录吧！
 date:   2018-03-21 23:00:00 +0800
-categories: code
+categories: engineering
 author: bwzou
 ---
 ### 前言

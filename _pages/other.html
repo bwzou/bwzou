@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /other/
+title: 其他
+---
+
+<div class="post-list">
+    {% for post in site.categories.other %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        {% include post-cards.html %}
+    </a>
+    {% endfor %}
+</div>
