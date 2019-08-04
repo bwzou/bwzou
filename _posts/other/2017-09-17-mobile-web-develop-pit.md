@@ -3,7 +3,7 @@ layout: post
 title: "移动端页面开发常见问题"
 description: 移动端网页开发不同于PC端网页开发，不同设备显示略有区别，这就留下了很多的坑！
 date:   2017-09-17 15:50:00 +0800
-categories: frontend
+categories: other
 author: bwzou
 ---
 

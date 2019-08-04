@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /node/
+title: Node
+---
+
+<div class="post-list">
+    {% for post in site.categories.node %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        {% include post-cards.html %}
+    </a>
+    {% endfor %}
+</div>
