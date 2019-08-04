@@ -61,6 +61,6 @@ author:
   facebook: bwzou # https://facebook.com/ is automatically added
   email: bwzou1@gmail.com # mailto: is automatically added
   
-gems: 
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate

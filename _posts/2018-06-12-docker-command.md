@@ -3,7 +3,7 @@ layout: post
 title: "常用的docker命令"
 description: docker是一个很有用的软件，提供一次性的环境。
 date: 2018-06-12 00:00:00 +0800
-categories: code
+categories: docker
 author: bwzou
 ---
 ## 常用Docker命令

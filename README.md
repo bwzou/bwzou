@@ -5,6 +5,12 @@ jekyll,simple is beautiful!
 * Go to settings and set Github Pages source as master.
 * Your new site should be ready.
 
+## 本地运行(mac环境)
+启动：
+bundle exec jekyll serve
+访问：
+http://localhost:4000
+
 ## Screenshots
 Default theme:
 
@@ -12,3 +18,5 @@ Default theme:
 
 ## License
 MIT License
+
+
