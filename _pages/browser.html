@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /browser/
+title: 浏览器!
+---
+
+<div class="post-list">
+    {% for post in site.categories.browser %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        {% include post-cards.html %}
+    </a>
+    {% endfor %}
+</div>
