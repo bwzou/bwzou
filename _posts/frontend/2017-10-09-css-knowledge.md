@@ -3,7 +3,7 @@ layout: post
 title: "需要知道的CSS知识（一）"
 description: 前端开发中css是极其重要的一部分，需要有一个更全面的学习！
 date:   2017-10-09 13:40:00 +0800
-categories: code
+categories: frontend
 author: bwzou
 ---
 作为当今web界三大语言之一的CSS，虽然不难学，但真正彻底把原理和基本概念全部搞懂也不是件容易的事。很多时候我们不是不善于交流，而是对基础知识掌握不够牢固，不敢交流。避免这个尴尬局面就是真正掌握CSS，向精通方面发展。

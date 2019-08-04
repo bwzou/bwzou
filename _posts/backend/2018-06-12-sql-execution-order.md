@@ -3,7 +3,7 @@ layout: post
 title: "sql语句执行顺序"
 description: sql语法的分析是从右到左！
 date:   2018-01-01 17:00:00 +0800
-categories: code
+categories: backend
 author: bwzou
 ---
 sql语法的分析是从右到左

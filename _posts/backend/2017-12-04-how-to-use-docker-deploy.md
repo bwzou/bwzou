@@ -3,7 +3,7 @@ layout: post
 title: "使用docker部署spring-boot项目"
 description: 使用docker可以极大的方便部署项目！
 date:   2017-12-04 14:15:00 +0800
-categories: docker
+categories: backend
 author: bwzou
 ---
 最近在开发后台管理项目，使用的spring-boot，接口写得差不多了，听测试说使用docker会方便部署。从前端刚转过来的我一脸懵逼，但是做开发就是这样，怎么简单怎么来，能偷懒就要偷懒。花了一下午和晚上终于搞定了。

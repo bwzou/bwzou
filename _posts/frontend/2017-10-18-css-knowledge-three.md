@@ -3,7 +3,7 @@ layout: post
 title: "需要知道的CSS知识（三）"
 description: 前端开发中css是极其重要的一部分，需要有一个更全面的学习！
 date:   2017-10-18 20:13:00 +0800
-categories: code
+categories: frontend
 author: bwzou
 ---
 续上一篇，接下来记录的是字体和文本。

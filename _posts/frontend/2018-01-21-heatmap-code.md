@@ -3,7 +3,7 @@ layout: post
 title: "heatmap.js代码分析"
 description: 本文是对heatmap.js代码的研读。涉及立即执行函数、模块化规范
 date:   2018-01-21 09:00:00 +0800
-categories: code
+categories: frontend
 author: bwzou
 ---
 JavaScript是一门很随意的语言，写法上没有很严谨的要求，这就造成一个问题，上手容易深入难。但我个人认为其实是“形散神不散”，看似杂乱无章，其实都是一些高阶的写法，只是我理解还不够深，雾里看花。研读优秀代码库对深入理解一门语言是相当重要的，本文就是讲讲研读heatmap.js 2.0后对js的深层次理解。
